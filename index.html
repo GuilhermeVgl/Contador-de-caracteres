@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="./css/style.css"
+  />
+    <title>contador de caracteres</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <h1 class="logo">Contador de Caracteres</h1>
+        </header>
+        <main>
+          <div class="card">
+            <h2>Contador de Caracteres</h2>
+            <div class="container">
+                <div class="text-input">
+                  <label for="input-text">Insira seu texto:</label>
+                  <textarea id="input-text" rows="10"></textarea>
+                </div>
+                <div class="results">
+                  <div class="char-with-spaces">
+                    <span class="count">0</span> caracteres (com espaços)
+                  </div>
+                  <div class="char-without-spaces">
+                    <span class="count">0</span> caracteres (sem espaços)
+                  </div>
+                  <div class="word-count">
+                    <span class="count">0</span> palavras
+                  </div>
+                  <div class="line-count">
+                    <span class="count">0</span> linhas
+                  </div>
+                </div>
+              </div>
+          </div>
+        </main>
+        <footer>
+          <p>Desenvolvido por Guilherme Freitas &copy; 2023</p>
+          <nav>
+            <ul class="links">
+              <li>
+                <a class="website"
+                  href="https://guilhermevgl.github.io/Portfolio/"
+                  rel="me"
+                  title="Guilherme Vieira Porfolio"
+                  target="_blank"
+                >
+                <i class="fa fa-globe"></i> 
+              </a>
+              </li>
+                <li>
+                  <a class="whatsapp"
+                    href="https://api.whatsapp.com/send?phone=5567984158359&text=Hi,%20Guilherme.%20I%20find%20you%20on%20your%20website.%20I'd%20like%20to%20talk%20with%20you"
+                    title="@GuilhermeVgl on GitHub"
+                    rel="me"
+                    target="_blank"
+                  >
+                    <i id="wpp" class="fa fa-whatsapp"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="github"
+                    href="https://github.com/GuilhermeVgl"
+                    title="@GuilhermeVgl on GitHub"
+                    rel="me"
+                    target="_blank"
+                  >
+                    <i id="git" class="fa fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="twitter"
+                    href="https://twitter.com/MageVgl"
+                    title="@MageVgl on Twitter"
+                    rel="me"
+                    target="_blank"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="linkedin"
+                    href="https://www.linkedin.com/in/guilherme-vieira-de-freitas/"
+                    rel="me"
+                    title="Guilherme Vieira on LinkedIn"
+                    target="_blank"
+                  >
+                    <i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+          </nav>
+        </footer>
+    </div> <!-- container -->
+</body>
+    <script src="script.js"></script>
+</html>
